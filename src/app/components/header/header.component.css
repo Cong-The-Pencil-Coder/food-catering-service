@@ -1,0 +1,19 @@
+.header {
+    overflow: hidden;
+    background-color: #FFEBCD;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.company-logo {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 2.px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+}

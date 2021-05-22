@@ -1,0 +1,40 @@
+import { Restaurant } from './models/Restaurant';
+
+export const RESTAURANTS: Restaurant[] = [
+  {
+    id: 1,
+    name: 'Mirazur',
+    style: 'Italian',
+    description: 'Unrivalled views of the French Riviera, three levels of cascading vegetable gardens churning out the sweetest produce and a team of outrageously talented cooks and front-of-house staff combine to make Mirazur the ultimate restaurant experience',
+  },
+  {
+    id: 2,
+    name: 'Le Calandre',
+    style: 'Italian',
+    description: 'Siblings Massimiliano, Raffaele and Laura are the third generation of chef-entrepreneurs in the Alajmo family. Massimiliano – or Max as he’s widely known – took over Le Calandre’s kitchen from his mother in 1990.',
+  },
+  {
+    id: 3,
+    name: 'Den',
+    style: 'Japanese',
+    description: 'Chef Zaiyu Hasegawa began his career at age 18 in the kitchen of a ryotei (exclusive traditional Japanese restaurant) in Tokyo’s Kagurazaka geisha area, where his mother worked',
+  },
+  {
+    id: 4,
+    name: 'Pujol',
+    style: 'Mexican',
+    description: 'Celebrity chef Enrique Olvera is credited with proving that rustic Mexican flavours deserve as much attention as any other haute cuisine in the world. And Pujol has been his pedestal to make that point via a tasting menu of refined and elegant plates',
+  },
+  {
+    id: 5,
+    name: 'Mugaritz',
+    style: 'Mexican',
+    description: 'Mugaritz is playful, avant garde and highly innovative. It’s a creative dining experience developed by Chef Andoni Luis Aduriz aimed to open minds; Aduriz freely admits that not all of his plates are designed to be enjoyed by diners',
+  },
+  {
+    id: 6,
+    name: 'Narisawa',
+    style: 'Japanese',
+    description: 'Yoshihiro Narisawa left home at 19 and spent eight years cutting his teeth in some of Europe’s most venerated kitchens, including those of the late Paul Bocuse and Joël Robuchon',
+  }
+];

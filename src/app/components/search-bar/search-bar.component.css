@@ -1,0 +1,10 @@
+.wrapper {
+    border:1px solid rgba(0, 0, 0, .2);
+    display:inline-block;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+input, button {
+    background-color: #FFF;
+    border: 0;
+    padding: 10px 10px 10px 35px;
+}

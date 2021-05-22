@@ -1,0 +1,12 @@
+.category-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+}

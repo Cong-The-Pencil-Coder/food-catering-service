@@ -1,0 +1,9 @@
+<div class="category-buttons">
+    <app-button
+        class="menu-button"
+        *ngFor="let button of CATEGORY_BUTTONS"
+        [text]="button.text"
+        [color]="button.color"
+        (btnClick)="filterByStyle(button.text)"
+    ></app-button>
+</div>

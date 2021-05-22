@@ -1,0 +1,4 @@
+<app-restaurant-display class="res"
+    *ngFor="let restaurant of restaurants | restaurantFilter:style:type"
+    [restaurant]="restaurant"
+></app-restaurant-display>
